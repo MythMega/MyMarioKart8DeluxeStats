@@ -1,0 +1,38 @@
+{% extends "statsviewers/base_page.html" %}
+{% load static %}
+{% block titre %}Builds{% endblock %}
+{% block content %}
+    {% for element in itemList %}
+    <div class="container">
+        <div class="row">
+            <div class="col-2">                                
+            </div>
+            <div class="col-8">
+                <div class="itemCard">
+                    <h2>{{ element }}</h2>
+                    <hr class="solid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>{% for item in element.driver.all %}{{item}}{%endfor%}</h5>                                  
+                            </div>
+                            <div class="col-6">
+                                <h5>{% for item in element.body.all %}{{item}}{%endfor%}</h5>
+                            </div>
+                            <div class="col-6">    
+                                <h5>{% for item in element.tire.all %}{{item}}{%endfor%}</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5>{% for item in element.glider.all %}{{item}}{%endfor%}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>                               
+            </div>
+            <div class="col-2">                                
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+{% endblock %}
