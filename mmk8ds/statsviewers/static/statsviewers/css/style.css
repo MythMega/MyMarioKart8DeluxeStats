@@ -1,1 +1,66 @@
-/*Base CSS Style*/
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow:0px 0px 15px rgb(150, 125, 18),0px 0px 25px rgb(150, 125, 18),0px 0px 35px rgb(150, 125, 18),0px 0px 50px rgb(150, 125, 18),0px 0px 75px rgb(150, 125, 18);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {  
+  background: url(https://i.imgur.com/fmUqxYm.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 5px;
+}
+
+#gigaBtn:hover {
+    color: black;
+    background-color: rgb(150, 125, 18);
+}
+
+p {
+    color: black;
+}
+
+.imgBald {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+
+.navbtn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    transition-duration: 1s;
+    width: 150px;
+    height: 50px;
+}
+
+.navbtn:hover {
+    background: rgb(150, 125, 18);
+    color: black;
+    font-weight: 700;
+    transition-duration: 1s;
+    width: 225px;
+}
+
+.trackpic {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+
+}.trackpic {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
