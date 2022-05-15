@@ -54,12 +54,17 @@ p {
     width: 225px;
 }
 
+.tracktitle {
+    height:80px
+
+}
+
 .trackpic {
-    width: 75px;
-    height: 75px;
+    width: 288px;
+    height: 162px;
     border-radius: 5px;
 
-}.trackpic {
+}.cuppic {
     width: 40px;
     height: 40px;
     border-radius: 5px;
